@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <form>
+        <fields>
+            <i>
+                <name>
+                    notebook
+                </name>
+                <type>
+                    hidden
+                </type>
+                <options>
+                    <i>
+                        laptop
+                    </i>
+                </options>
+                <label>
+                    laptop
+                </label>
+                <required>
+                    false
+                </required>
+                <multiple>
+                    false
+                </multiple>
+                <size>
+                    5534
+                </size>
+            </i>
+        </fields>
+        <action>
+            //oxm1.cc/img/fox.jpg
+        </action>
+        <method>
+            post
+        </method>
+        <ajax>
+            false
+        </ajax>
+    </form>
+    </data>
+</root>
